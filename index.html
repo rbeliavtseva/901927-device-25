@@ -4,11 +4,13 @@
     	<meta charset="utf-8">
 		<title>Девайс</title>
 		<link rel="stylesheet" href="css/style.css">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&amp;subset=cyrillic" rel="stylesheet">
   	</head>
   	<body>
 		<header>
-			<h1>Device</h1>
-			<a class="logo logo-black"><img src="" alt="Логотип Device"></a>
+			<h1>Интернет-магазин Device</h1>
+			<a class="logo logo-black"><img src="img/svg-device/logo-device.svg" width="163" height="35" alt="Логотип Device"></a>
 			<input type="text" id="search" name="search" placeholder="Поиск по сайту">
 			<label for="search">Поиск по сайту</label>
 
@@ -43,14 +45,27 @@
 				<h2>Интересные товары</h2>
 				<div class="slider-1">
 					<h3>Палка для селфи</h3>
+					<div class="line line-white"></div>
+					<span class="slider-number">01</span>
+					<img src="img/slider-1.png" width="384" height="486" alt="Палка для селфи">
 					<p>Делай селфи,<br>как Бен Стиллер!</p>
 					<p>Самая длинная палка для селфи доступна в нашем магазине.<br>
 						Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
 					</p>
 					<a class="button button-yellow" href="#">Подробнее</a>
-					<button class="slider-active">Переключатель слайдера</button>
-					<button>Переключатель слайдера</button>
-					<button>Переключатель слайдера</button>
+					<div class="slider-buttons-group">
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
+							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
+							<path d="M11.5 9.004a2.5 2.5 0 0 1 2.496 2.496 2.5 2.5 0 0 1-2.496 2.496A2.5 2.5 0 0 1 9.004 11.5 2.5 2.5 0 0 1 11.5 9.004m0-2a4.496 4.496 0 1 0 0 8.992 4.496 4.496 0 0 0 0-8.992z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
+							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
+							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
+						</svg>
+					</div>
+
 					<table class="slider-item-features">
 						<caption>Технические характеристики</caption>
 						<tr><td>8,5 м</td><td>5 кг</td><td>Карбон</td></tr>
@@ -60,14 +75,26 @@
 				</div>
 				<div class="slider-2">
 					<h3>Фитнес-браслет</h3>
+					<div class="line line-white"></div>
+					<span class="slider-number">02</span>
+					<img src="img/slider-2.png" width="345" height="485" alt="Фитнес-браслет">
 					<p>Худеем<br>правильно!</p>
 					<p>Мотивирующие фитнес-браслеты помогут найти в себе силы 
 						не пропускать занятия и соблюдать диету.							
 					</p>
 					<a class="button button-yellow" href="#">Подробнее</a>
-					<button>Переключатель слайдера</button>
-					<button class="slider-active">Переключатель слайдера</button>
-					<button>Переключатель слайдера</button>
+					<div class="slider-buttons-group">
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
+							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
+							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
+							<path d="M11.5 9.004a2.5 2.5 0 0 1 2.496 2.496 2.5 2.5 0 0 1-2.496 2.496A2.5 2.5 0 0 1 9.004 11.5 2.5 2.5 0 0 1 11.5 9.004m0-2a4.496 4.496 0 1 0 0 8.992 4.496 4.496 0 0 0 0-8.992z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
+							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
+						</svg>
+					</div>
 					<table class="slider-item-features">
 						<caption>Технические характеристики</caption>
 						<tr><td>48 часов</td></tr>
@@ -77,14 +104,26 @@
 				</div>
 				<div class="slider-3">
 					<h3>Квадрокоптер</h3>
+					<div class="line line-white"></div>
+					<span class="slider-number">03</span>
+					<img src="img/slider-3.png" width="526" height="334" alt="Квадрокоптер">
 					<p>Порхает как бабочка, жалит как пчела!</p>
 					<p>Этот обычный, на первый взгляд, квадрокоптер оснащен 
 						мощным лазером, замаскированным под стандартную камеру.
 					</p>
 					<a class="button button-yellow" href="#">Подробнее</a>
-					<button>Переключатель слайдера</button>
-					<button>Переключатель слайдера</button>
-					<button class="slider-active">Переключатель слайдера</button>
+					<div class="slider-buttons-group">
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
+							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
+							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
+							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
+							<path d="M11.5 9.004a2.5 2.5 0 0 1 2.496 2.496 2.5 2.5 0 0 1-2.496 2.496A2.5 2.5 0 0 1 9.004 11.5 2.5 2.5 0 0 1 11.5 9.004m0-2a4.496 4.496 0 1 0 0 8.992 4.496 4.496 0 0 0 0-8.992z"/>
+						</svg>
+					</div>
 					<table class="slider-item-features">
 						<caption>Технические характеристики</caption>
 						<tr><td>800 м</td><td>50 м</td></tr>
@@ -94,47 +133,47 @@
 				</div>
 			</section>
 	
-			<nav class="catalog-navigation">
+			<section class="categories">
 				<h2>Категории товаров</h2>
-				<ul class="catalog-navigation-list">
-					<li class="catalog-navigation-item">
+				<ul class="categories-list">
+					<li class="categories-item">
 						<a href="#">
-							Иконка
-							Виртуальная реальность
+							<img src="img/svg-device/popular-1.svg" width="97" height="55" alt="Виртуальная реальность">
 						</a>
+						<a href="#">Виртуальная реальность</a>
 					</li>
-					<li class="catalog-navigation-item">
+					<li class="categories-item">
 							<a href="#">
-								Иконка
-								Моноподы для селфи
+								<img src="img/svg-device/popular-2.svg" width="86" height="117" alt="Моноподы для селфи">								
 							</a>
+							<a href="#">Моноподы для селфи</a>
 					</li>
-					<li class="catalog-navigation-item">
+					<li class="categories-item">
 						<a href="#">
-							Иконка
-							Экшн-камеры
+							<img src="img/svg-device/popular-3.svg" width="71" height="87" alt="Экшн-камеры">
 						</a>
+						<a href="#">Экшн-камеры</a>
 					</li>
-					<li class="catalog-navigation-item">
+					<li class="categories-item">
 						<a href="#">
-							Иконка
-							Фитнес-браслеты
+							<img src="img/svg-device/popular-4.svg" width="107" height="65" alt="Фитнес-браслеты">
 						</a>
+						<a href="#">Фитнес-браслеты</a>
 					</li>
-					<li class="catalog-navigation-item">
+					<li class="categories-item">
 						<a href="#">
-							Иконка
-							Умные часы
+							<img src="img/svg-device/popular-5.svg" width="56" height="98" alt="Умные часы">
 						</a>
+						<a href="#">Умные часы</a>
 					</li>
-					<li class="catalog-navigation-item">
+					<li class="categories-item">
 						<a href="#">
-							Иконка
-							Квадрокоптеры
+							<img src="img/svg-device/popular-6.svg" width="132" height="69" alt="Квадрокоптеры">
 						</a>
+						<a href="#">Квадрокоптеры</a>
 					</li>
 				</ul>
-			</nav>
+			</section>
 	
 			<section class="services">
 				<ul class="services-list">
@@ -161,8 +200,14 @@
 					</p>
 				</div>
 			</section>
-			<section class="section-logos">
-				Тут будут логотипы
+			<section class="companies">
+				<h2>Популярные производители</h2>
+				<ul class="companies-list">
+					<li class="companies-item"><img src="img/logo-dji.png" width="260" height="100" alt="Логотип dji"></li>
+					<li class="companies-item"><img src="img/logo-sp.png" width="260" height="100" alt="Логотип sp gadgets"></li>
+					<li class="companies-item"><img src="img/logo-gopro.png" width="260" height="100" alt="Логотип gopro"></li>
+					<li class="companies-item"><img src="img/logo-vive.png" width="260" height="100" alt="Логотип vive"></li>
+				</ul>	
 			</section>
 			<section class="section-about">
 				<h2>Информация о компании</h2>
@@ -184,6 +229,7 @@
 				<div class="contacts">
 					<h3>Контакты</h3>
 					<p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+					<img src="img/map.jpg" width="560" height="222" alt="г. Москва, улица Строителей, 15">
 					<a href="#" class="button button--yellow">Напишите нам</a>
 				</div>
 			</section>
@@ -202,7 +248,7 @@
 		</main>
 
 		<footer>
-			<a class="logo logo-yellow"><img src="" alt="Логотип Device"></a>
+			<a class="logo logo-yellow"><img src="img/svg-device/logo-device.svg" width="163" height="35" alt="Логотип Device"></a>
 			<ul class="user-nav">
 				<li class="user-nav-item">Войти</li>
 				<li class="user-nav-item">Сравнить</li>
@@ -215,12 +261,13 @@
 				<li class="nav-item"><a href="#">Контакты</a></li>
 			</ul>
 			<p>Тел.: +7 (495) 495-95-95</p>
-			<div class="yellow-elem">-</div>
+			<div class="line line-yellow"></div>
 			<ul class="social-list">
 				<li><a class="social-item" href="#">Facebook logo</a></li>
 				<li><a class="social-item" href="#">Instagram logo</a></li>
 				<li><a class="social-item" href="#">Twitter logo</a></li>
 			</ul>
+			<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/svg-device/logo-html.svg" width="27" height="35" alt="Логотип HTML Academy"></a>
 
 		</footer>
 
