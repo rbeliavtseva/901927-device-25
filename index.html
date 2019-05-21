@@ -8,36 +8,44 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&amp;subset=cyrillic" rel="stylesheet">
   	</head>
   	<body>
-		<header>
-			<h1>Интернет-магазин Device</h1>
-			<a class="logo logo-black"><img src="img/svg-device/logo-device.svg" width="163" height="35" alt="Логотип Device"></a>
-			<input type="text" id="search" name="search" placeholder="Поиск по сайту">
-			<label for="search">Поиск по сайту</label>
+		<header class="main-header">
+			<h1 class="visually-hidden">Интернет-магазин Device</h1>
+			<nav class="main-navigation">
+				<a class="main-logo" aria-label="Вы на главной странице">
+					<img src="img/svg-device/logo-device.svg" width="163" height="35" alt="Логотип Device">
+				</a>
 
- 			<ul class="user-nav">
-				<li class="user-nav-item"><a href="#">Войти</a></li>
-				<li class="user-nav-item"><a href="#">Сравнить</a></li>
-				<li class="user-nav-item"><a href="#">Корзина</a></li>
-            </ul>
-			<a href="#">Каталог товаров</a>
-			<button class="catalog-button">+</button>
-			<ul class="menu-dropdown">
-				<li class="menu-dropdown-item"><a href="#">Виртуальная реальность</a></li>
-				<li class="menu-dropdown-item"><a href="#">Моноподы для селфи</a></li>
-				<li class="menu-dropdown-item"><a href="#">Экшн-камеры</a></li>
-				<li class="menu-dropdown-item"><a href="#">Фитнес-браслеты</a></li>
-				<li class="menu-dropdown-item"><a href="#">Умные часы</a></li>
-				<li class="menu-dropdown-item"><a href="#">Квадрокоптеры</a></li>
-			</ul>
-			
-			<nav>
-				<ul class="site-nav">
-					<li class="site-nav-item"><a href="#">Доставка</a></li>
-					<li class="site-nav-item"><a href="#">Гарантия</a></li>
-					<li class="site-nav-item"><a href="#">Контакты</a></li>
-				</ul>
-			</nav>
-			
+				<div class="user-nav-group">
+					<input type="text" id="search" name="search" placeholder="Поиск по сайту">
+					<label for="search">Поиск по сайту</label>
+		
+					<ul class="user-nav">
+						<li class="user-nav-item user-nav-item-user"><a href="#">Войти</a></li>
+						<li class="user-nav-item user-nav-item-compare"><a href="#">Сравнить</a></li>
+						<li class="user-nav-item user-nav-item-cart"><a href="#">Корзина</a></li>
+					</ul>
+				</div>
+				
+				<div class="site-nav-group">
+					<a class="catalog-heading" href="#">Каталог товаров</a>
+					<button class="catalog-button">+</button>
+					<ul class="menu-dropdown">
+						<li class="menu-dropdown-item"><a href="#">Виртуальная реальность</a></li>
+						<li class="menu-dropdown-item"><a href="#">Моноподы для селфи</a></li>
+						<li class="menu-dropdown-item"><a href="#">Экшн-камеры</a></li>
+						<li class="menu-dropdown-item"><a href="#">Фитнес-браслеты</a></li>
+						<li class="menu-dropdown-item"><a href="#">Умные часы</a></li>
+						<li class="menu-dropdown-item"><a href="#">Квадрокоптеры</a></li>
+					</ul>
+					
+					<ul class="site-nav">
+						<li class="site-nav-item"><a href="#">Доставка</a></li>
+						<li class="site-nav-item"><a href="#">Гарантия</a></li>
+						<li class="site-nav-item"><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				
+			</nav>				
 		</header>
 
 		<main>
@@ -54,16 +62,9 @@
 					</p>
 					<a class="button button-yellow" href="#">Подробнее</a>
 					<div class="slider-buttons-group">
-						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
-							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
-							<path d="M11.5 9.004a2.5 2.5 0 0 1 2.496 2.496 2.5 2.5 0 0 1-2.496 2.496A2.5 2.5 0 0 1 9.004 11.5 2.5 2.5 0 0 1 11.5 9.004m0-2a4.496 4.496 0 1 0 0 8.992 4.496 4.496 0 0 0 0-8.992z"/>
-						</svg>
-						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
-							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
-						</svg>
-						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
-							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
-						</svg>
+						<button class="slider-button slider-button-active" type="button"><span class="visually-hidden">Первый слайд</span></button>
+						<button class="slider-button" type="button"><span class="visually-hidden">Второй слайд</span></button>
+						<button class="slider-button" type="button"><span class="visually-hidden">Третий слайд</span></button>
 					</div>
 
 					<table class="slider-item-features">
@@ -84,16 +85,9 @@
 					</p>
 					<a class="button button-yellow" href="#">Подробнее</a>
 					<div class="slider-buttons-group">
-						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
-							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
-						</svg>
-						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
-							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
-							<path d="M11.5 9.004a2.5 2.5 0 0 1 2.496 2.496 2.5 2.5 0 0 1-2.496 2.496A2.5 2.5 0 0 1 9.004 11.5 2.5 2.5 0 0 1 11.5 9.004m0-2a4.496 4.496 0 1 0 0 8.992 4.496 4.496 0 0 0 0-8.992z"/>
-						</svg>
-						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
-							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
-						</svg>
+						<button class="slider-button" type="button"><span class="visually-hidden">Первый слайд</span></button>
+						<button class="slider-button slider-button-active" type="button"><span class="visually-hidden">Второй слайд</span></button>
+						<button class="slider-button" type="button"><span class="visually-hidden">Третий слайд</span></button>
 					</div>
 					<table class="slider-item-features">
 						<caption>Технические характеристики</caption>
@@ -113,16 +107,9 @@
 					</p>
 					<a class="button button-yellow" href="#">Подробнее</a>
 					<div class="slider-buttons-group">
-						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
-							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
-						</svg>
-						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
-							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
-						</svg>
-						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 23 23">
-							<path d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z"/>
-							<path d="M11.5 9.004a2.5 2.5 0 0 1 2.496 2.496 2.5 2.5 0 0 1-2.496 2.496A2.5 2.5 0 0 1 9.004 11.5 2.5 2.5 0 0 1 11.5 9.004m0-2a4.496 4.496 0 1 0 0 8.992 4.496 4.496 0 0 0 0-8.992z"/>
-						</svg>
+						<button class="slider-button" type="button"><span class="visually-hidden">Первый слайд</span></button>
+						<button class="slider-button" type="button"><span class="visually-hidden">Второй слайд</span></button>
+						<button class="slider-button slider-button-active" type="button"><span class="visually-hidden">Третий слайд</span></button>
 					</div>
 					<table class="slider-item-features">
 						<caption>Технические характеристики</caption>
@@ -235,40 +222,58 @@
 			</section>
 
 			<section class="modal modal-contact">
-				<h2>Обратная связь</h2> 
-				<input type="text" id="name" placeholder="Имя Фамилия">
-				<label for="name">Ваше имя:</label>
-				<input type="text" id="email" placeholder="email@example.com">
-				<label for="email">Ваш e-mail:</label>
-				<textarea name="text" id="text" cols="30" rows="10" placeholder="В свободной форме"></textarea>
-				<label for="text">Текст письма:</label>
-				<button class="button button-yellow">Отправить</button>
+				<h2 class="visually-hidden">Обратная связь</h2> 
+				<form class="contact-form" action="https://echo.htmlacademy.ru" method="POST">
+					<div class="contact-form-group">
+						<p class="contact-item contact-item-name">
+							<label for="contact-name">Ваше имя:</label>
+							<input type="text" id="contact-name" name="name" value="" placeholder="Имя Фамилия">							
+						</p>
+						<p class="contact-item contact-item-email">
+							<label for="contact-email">Ваш e-mail:</label>
+							<input type="text" id="contact-email" name="email" value="" placeholder="email@example.com">	
+						</p>
+					</div>					
+					<p class="contact-item">
+						<label for="contact-message">Текст письма:</label>
+						<textarea id="contact-message" name="message" value="" cols="30" rows="7" placeholder="В свободной форме"></textarea>						
+					</p>
+					<button class="button button-yellow" type="submit">Отправить</button>
+				</form>
+				<button class="modal-close" type="button">Закрыть</button>			
 			</section>
 
 		</main>
 
-		<footer>
-			<a class="logo logo-yellow"><img src="img/svg-device/logo-device.svg" width="163" height="35" alt="Логотип Device"></a>
-			<ul class="user-nav">
-				<li class="user-nav-item">Войти</li>
-				<li class="user-nav-item">Сравнить</li>
-				<li class="user-nav-item">Корзина</li>
-			</ul>
-			<p>г. Москва, ул. Строителей, 15</p>
-			<ul class="nav-list">
-				<li class="nav-item"><a href="#">Доставка</a></li>
-				<li class="nav-item"><a href="#">Гарантия</a></li>
-				<li class="nav-item"><a href="#">Контакты</a></li>
-			</ul>
-			<p>Тел.: +7 (495) 495-95-95</p>
-			<div class="line line-yellow"></div>
-			<ul class="social-list">
-				<li><a class="social-item" href="#">Facebook logo</a></li>
-				<li><a class="social-item" href="#">Instagram logo</a></li>
-				<li><a class="social-item" href="#">Twitter logo</a></li>
-			</ul>
-			<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/svg-device/logo-html.svg" width="27" height="35" alt="Логотип HTML Academy"></a>
-
+		<footer class="main-footer">
+			<div class="main-footer-first-row">
+				<a class="logo logo-yellow"><img src="img/svg-device/logo-device.svg" width="163" height="35" alt="Логотип Device"></a>
+				<ul class="user-nav">
+					<li class="user-nav-item">Войти</li>
+					<li class="user-nav-item">Сравнить</li>
+					<li class="user-nav-item">Корзина</li>
+				</ul>
+			</div>
+			<div class="main-footer-second-row">
+				<p>г. Москва, ул. Строителей, 15</p>
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#">Доставка</a></li>
+					<li class="nav-item"><a href="#">Гарантия</a></li>
+					<li class="nav-item"><a href="#">Контакты</a></li>
+				</ul>
+				<p>Тел.: +7 (495) 495-95-95</p>
+			</div>
+			<div class="main-footer-third-row">
+				<div class="line line-yellow"></div>
+				<ul class="social-buttons-list">
+					<li class="social-button social-button-facebook"><a href="#"><span class="visually-hidden">Девайс на Фейсбуке</span></a></li>
+					<li class="social-button social-button-instagram"><a href="#"><span class="visually-hidden">Девайс в Инстаграме</span></a></li>
+					<li class="social-button social-button-twitter"><a href="#"><span class="visually-hidden">Девайс в Твиттере</span></a></li>
+				</ul>
+				<a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="На сайт HTMl Академии">
+					<img src="img/svg-device/logo-html.svg" width="27" height="35" alt="Логотип HTML Academy">
+				</a>
+			</div>
 		</footer>
 
   	</body>
